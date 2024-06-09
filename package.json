@@ -1,0 +1,21 @@
+{
+  "name": "scrbbl",
+  "version": "1.0.0",
+  "description": "Command-line tool used to to connect and seed a database, then use it to learn news words",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "scrbbl": "./bin/index.js"
+  },
+  "author": "Colin Geindre",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "jsdom": "^23.2.0",
+    "pg": "^8.11.3",
+    "sqlite3": "^5.1.7",
+    "yargs": "^17.7.2"
+  }
+}
